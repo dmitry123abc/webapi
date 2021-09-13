@@ -7,6 +7,7 @@ namespace webapi.Controllers
     [Route("cnt/{**slug}")]
     public class Cnt:ControllerBase
     {
+        //some small changes, just to check a branch...
         private readonly CounterDbContext _db;
         public Cnt(CounterDbContext db)
         {
