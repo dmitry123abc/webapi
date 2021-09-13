@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace webapi
 {
+    //some changes in the Counter class...
     public partial class Counter
     {
         public Counter()
